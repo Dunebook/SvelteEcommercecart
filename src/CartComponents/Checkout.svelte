@@ -1,6 +1,6 @@
 <script>
   import CheckoutItem from "./CheckoutItem.svelte";
-  import { cart } from "../stores/stores.js";
+  import { cart } from "../Stores/stores.js";
   let checkedOut = false;
   let cartItems = [];
   const unsubscribe = cart.subscribe(items => {

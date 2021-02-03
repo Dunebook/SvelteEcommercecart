@@ -1,6 +1,6 @@
 <script>
   import { get } from "svelte/store";
-  import { cart } from "../stores/stores.js";
+  import { cart } from "../Stores/stores.js";
   export let item;
   let { img, name, price } = item;
   img = `img/${img}`;

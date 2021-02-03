@@ -1,5 +1,5 @@
 <script>
-    import { cart } from "../stores/stores.js";
+    import { cart } from "../Stores/stores.js";
     import { createEventDispatcher } from "svelte";
     const dispatch = createEventDispatcher();
     let cart_sum = 0;

@@ -29,15 +29,8 @@
 
       <a class="navbar-brand logo-font" id="brand" on:click={goToHome}> SvelteCart </a>  
       
-        <!-- links toggle -->
-        <button class="navbar-toggler order-first" type="button" data-toggle="collapse" data-target="#links" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fa fa-bars"></i>
-        </button>
-        <!-- account toggle -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#account" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fa fa-shopping-cart fa-1x" aria-hidden="true"></i>
-            <span class="badge badge-light">88</span>
-        </button>
+    
+      
         
         <div class="collapse navbar-collapse" id="links">
             <ul class="navbar-nav mr-auto">
@@ -51,7 +44,6 @@
 
             </ul>
         </div>
-        <div class="collapse navbar-collapse" id="account">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active"><a class="nav-link" on:click={goToCheckout}>Items in Cart
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-cart-dash-fill" viewBox="0 0 16 16">
@@ -62,7 +54,6 @@
                   {/if} </li>
             </ul>
         </div>
-    </div>
 </nav>
 
 <br>
